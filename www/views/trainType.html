@@ -1,0 +1,13 @@
+<div class="modal" ng-controller="controllerTrainType">
+    <ion-header-bar class="item-input-inset bar-calm">
+        <div class="buttons">
+            <button class="button button-icon icon ion-ios-arrow-back" ng-click="hideTrainTypeModal()"></button>
+        </div>
+        <h1 class="title">请选择席位</h1>
+    </ion-header-bar>
+    <ion-content>
+        <ion-list id="trainTypeList">
+            <ion-checkbox ng-repeat="item in type" ng-click="checkType($event)">{{item}}</ion-checkbox>
+        </ion-list>
+    </ion-content>
+</div>

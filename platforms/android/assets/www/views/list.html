@@ -1,0 +1,44 @@
+<!--
+<ion-side-menus>
+
+    <ion-side-menu-content>
+-->
+        <ion-view title="{{city.start ? city.start : '广州'}} - {{city.end  ? city.end : '安徽'}}">
+            <ion-nav-bar class="bar-calm nav-title-slide-ios7">
+                <ion-nav-back-button>
+                    返回
+                </ion-nav-back-button>
+                <ion-nav-buttons side="right">
+                    <button class="button button-clear">
+                        显示价格
+                    </button>
+                </ion-nav-buttons>
+            </ion-nav-bar>
+            <ion-content class="has-footer has-header">
+
+                <div class="list">
+                    <a href="#" class="item item-icon-left item-icon-right">
+                        <i class="icon assertive ion-plane"></i> {{city.start ? city.start : '广州'}} - {{city.end ? city.end : '安徽'}} 飞机票
+                        <span class="item-note">
+                    <i class=" button-small icon ion-ios-arrow-right"></i>
+                </span>
+                    </a>
+                    <div class="item item-divider">
+                        1/1个车次，00:00--24:00,<i ng-repeat="item in trainType">{{item}}</i><span class="{{(trainType.length != 0) ? 'ng-hide' : 'ng-show'}}">全部</span>类型
+                    </div>
+                </div>
+            </ion-content>
+            <ion-footer-bar class="bar bar-dark">
+                <h1 class="title">
+            {{datepickerObject.inputDate | date:'MM月dd日'}} 周{{datepickerObject.weekDaysList[datepickerObject.inputDate.getDay()]}}
+        </h1>
+                </ion-footer>
+        </ion-view>
+<!--
+    </ion-side-menu-content>
+
+    <ion-side-menu side="left">
+        sadasd
+    </ion-side-menu>
+</ion-side-menus>
+-->

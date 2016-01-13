@@ -61,14 +61,23 @@
         "cordova-plugin-splashscreen": {
             "PACKAGE_NAME": "com.ionicframework.starter"
         },
-        "cordova-plugin-statusbar": {
-            "PACKAGE_NAME": "com.ionicframework.starter"
-        },
         "cordova-plugin-whitelist": {
             "PACKAGE_NAME": "com.ionicframework.starter"
         },
         "ionic-plugin-keyboard": {
             "PACKAGE_NAME": "com.ionicframework.starter"
+        },
+        "cordova-plugin-x-toast": {
+            "PACKAGE_NAME": "com.ionicframework.starter"
+        },
+        "cordova-plugin-statusbar": {
+            "PACKAGE_NAME": "com.immo.immoapp"
+        },
+        "cordova-plugin-datepicker": {
+            "PACKAGE_NAME": "com.immo.immoapp"
+        },
+        "cordova-plugin-calendar": {
+            "PACKAGE_NAME": "com.immo.immoapp"
         }
     },
     "dependent_plugins": {}
